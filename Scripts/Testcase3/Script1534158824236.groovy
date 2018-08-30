@@ -52,7 +52,7 @@ WebUI.delay(3)
 
 logoname =WebUI.getText(findTestObject('Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/AmazonLogo'))
 
-FileInputStream f = new FileInputStream(new File("C:\\Users\\e004475\\Desktop\\Demo.xls"))
+//FileInputStream f = new FileInputStream(new File("C:\\Users\\e004475\\Desktop\\Demo.xls"))
 
 
 

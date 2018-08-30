@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTestSuit,Firefox 61.0,LoginFunctionality,2018-08-29 14:59:05,2018-08-29 15:00:24,1m - 19.419s,ERROR
+,,,,,,
+Test Cases/testcase2,Firefox 61.0,,2018-08-29 14:59:05,2018-08-29 15:00:11,1m - 5.447s,ERROR
+openBrowser,Firefox 61.0,,2018-08-29 14:59:06,2018-08-29 15:00:09,1m - 3.078s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 61.0,,2018-08-29 15:00:09,2018-08-29 15:00:09,0.038s,PASSED
+Statement - f = new java.io.File(C:\Users\e004475\Desktop\test.xls),Firefox 61.0,,2018-08-29 15:00:09,2018-08-29 15:00:09,0.012s,PASSED
+Statement - file = new java.io.FileInputStream(f),Firefox 61.0,,2018-08-29 15:00:09,2018-08-29 15:00:09,0.012s,PASSED
+Statement - workbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(file),Firefox 61.0,,2018-08-29 15:00:09,2018-08-29 15:00:11,1.654s,PASSED
+Statement - sheet = workbook.getSheetAt(0),Firefox 61.0,,2018-08-29 15:00:11,2018-08-29 15:00:11,0.005s,PASSED
+Statement - Data_fromCell = sheet.getRow(0).getCell(0).getStringCellValue(),Firefox 61.0,,2018-08-29 15:00:11,2018-08-29 15:00:11,0.031s,PASSED

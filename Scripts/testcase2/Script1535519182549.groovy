@@ -2,11 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import org.apache.poi.ss.usermodel.Row
-import org.apache.poi.xssf.usermodel.XSSFSheet
-import org.apache.poi.xssf.usermodel.XSSFWorkbook
-
+import org.apache.poi.hssf.usermodel.HSSFSheet as HSSFSheet
+import org.apache.poi.hssf.usermodel.HSSFWorkbook as HSSFWorkbook
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -23,26 +20,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-/*WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url)
-String title = WebUI.getText(findTestObject('Object Repository/Page_Amazon.com Online Shopping for/seelItem'))
-println(title)*/
-//String text = WebUI.getText(findTestObject('Object Repository/searchbtn'))
+WebUI.openBrowser('https://www.amazon.com')
+String title = WebUI.getWindowTitle();
 
-//CustomKeywords.'custom.keywordCustom.DemoKey'(title)
 
-File fis = new File("C:\\Users\\e004475\\Desktop\\test.xls")
-FileInputStream f = new FileInputStream(fis)
-XSSFWorkbook workbook = new XSSFWorkbook();
-XSSFSheet sheet = workbook.getSheet("Sheet1");
-Row r = new Row();
-print(sheet);
-String r = sheet.getRow(1).createCell(1).setCellValue("pass");
-print(r);
-FileOutputStream out = new FileOutputStream(fis)
-workbook.write(out);
+
+File f = new File('C:\\Users\\e004475\\Desktop\\test.xls')
+
+FileInputStream file = new FileInputStream(f)
+
+HSSFWorkbook workbook = new HSSFWorkbook(file)
+
+HSSFSheet sheet = workbook.getSheetAt(0)
+String Data_fromCell=sheet.getRow(0).getCell(0).getStringCellValue();
+println('*****************'+Data_fromCell);
+
+sheet.getRow(0).createCell(0).setCellValue(title)
+
+file.close()
+
+FileOutputStream out = new FileOutputStream(f)
+
+workbook.write(out)
+
 out.close()
-	
 
-//WebUI.closeBrowser()
+
+

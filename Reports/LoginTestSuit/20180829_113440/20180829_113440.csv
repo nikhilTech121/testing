@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTestSuit,Chrome 68.0.3440.106,LoginFunctionality,2018-08-29 11:34:42,2018-08-29 11:34:51,9.072s,ERROR
+,,,,,,
+Test Cases/testcase2,Chrome 68.0.3440.106,,2018-08-29 11:34:42,2018-08-29 11:34:50,7.934s,ERROR
+openBrowser,Chrome 68.0.3440.106,,2018-08-29 11:34:42,2018-08-29 11:34:49,6.424s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 68.0.3440.106,,2018-08-29 11:34:49,2018-08-29 11:34:49,0.045s,PASSED
+Statement - f = new java.io.File(C:\Users\e004475\Desktop\test.xls),Chrome 68.0.3440.106,,2018-08-29 11:34:49,2018-08-29 11:34:49,0.007s,PASSED
+Statement - file = new java.io.FileInputStream(f),Chrome 68.0.3440.106,,2018-08-29 11:34:49,2018-08-29 11:34:49,0.007s,PASSED
+Statement - workbook = new org.apache.poi.hssf.usermodel.HSSFWorkbook(file),Chrome 68.0.3440.106,,2018-08-29 11:34:49,2018-08-29 11:34:50,1.064s,PASSED
+Statement - sheet = workbook.getSheetAt(0),Chrome 68.0.3440.106,,2018-08-29 11:34:50,2018-08-29 11:34:50,0.001s,PASSED
+Statement - sheet.getRow(1).createCell(0).setCellValue(title),Chrome 68.0.3440.106,,2018-08-29 11:34:50,2018-08-29 11:34:50,0.012s,PASSED
