@@ -34,17 +34,16 @@ import WebUiBuiltInKeywords as WebUI
 
 public class keywordCustom {
 	@Keyword
-	public void DemoKey(String name) throws Exception
-	 {
+	public void DemoKey(String name) throws Exception {
 		FileInputStream fis = new FileInputStream(new File("C:\\Users\\e004475\\Downloads\\Demo1.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
 		XSSFSheet sheet = workbook.getSheetAt(0)
 		/*int rowCount = sheet.getLastRowNum()-sheet.getFirstRowNum();
-		XSSFRow row = sheet.createRow(rowCount+1);
-		XSSFCell cell = row.createCell(0);
-		cell.setCellType(cell.CELL_TYPE_STRING);
-		cell.setCellValue(name);*/
+		 XSSFRow row = sheet.createRow(rowCount+1);
+		 XSSFCell cell = row.createCell(0);
+		 cell.setCellType(cell.CELL_TYPE_STRING);
+		 cell.setCellValue(name);*/
 		sheet.getRow(1).createCell(1).setCellValue(name)
 		FileOutputStream fos = new FileOutputStream(new File("C:\\Users\\e004475\\Downloads\\Demo1.xlsx"));
 		workbook.write(fos);

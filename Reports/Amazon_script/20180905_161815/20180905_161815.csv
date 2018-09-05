@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Amazon_script,Chrome 68.0.3440.106,,2018-09-05 16:18:16,2018-09-05 16:19:10,53.816s,PASSED
+,,,,,,
+Test Cases/amazon_demo/finalScript,Chrome 68.0.3440.106,,2018-09-05 16:18:17,2018-09-05 16:19:10,53.537s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-09-05 16:18:17,2018-09-05 16:18:21,3.473s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-09-05 16:18:21,2018-09-05 16:18:24,3.962s,PASSED
+maximizeWindow,Chrome 68.0.3440.106,,2018-09-05 16:18:24,2018-09-05 16:18:26,1.144s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 68.0.3440.106,,2018-09-05 16:18:26,2018-09-05 16:18:26,0.015s,PASSED
+"Statement - title1 = ""Amazon.com:Online""",Chrome 68.0.3440.106,,2018-09-05 16:18:26,2018-09-05 16:18:26,0.000s,PASSED
+"Statement - If (title.contains(""Amazon""))",Chrome 68.0.3440.106,,2018-09-05 16:18:26,2018-09-05 16:18:26,0.018s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-05 16:18:26,2018-09-05 16:18:34,8.019s,PASSED
+setText,Chrome 68.0.3440.106,,2018-09-05 16:18:34,2018-09-05 16:18:34,0.179s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-05 16:18:34,2018-09-05 16:18:35,1.592s,PASSED
+setText,Chrome 68.0.3440.106,,2018-09-05 16:18:35,2018-09-05 16:18:36,0.124s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-05 16:18:36,2018-09-05 16:18:39,3.683s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-05 16:18:39,2018-09-05 16:18:42,3.007s,PASSED
+Statement - logoname = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/AmazonLogo)),Chrome 68.0.3440.106,,2018-09-05 16:18:42,2018-09-05 16:18:42,0.050s,PASSED
+callTestCase,Chrome 68.0.3440.106,,2018-09-05 16:18:42,2018-09-05 16:19:01,18.917s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-05 16:19:01,2018-09-05 16:19:04,3.004s,PASSED
+mouseOver,Chrome 68.0.3440.106,,2018-09-05 16:19:04,2018-09-05 16:19:04,0.118s,PASSED
+delay,Chrome 68.0.3440.106,,2018-09-05 16:19:04,2018-09-05 16:19:07,3.003s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-05 16:19:07,2018-09-05 16:19:09,1.644s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-09-05 16:19:09,2018-09-05 16:19:10,1.225s,PASSED

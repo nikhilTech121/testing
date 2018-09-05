@@ -4,7 +4,17 @@
    <name>input_submit.add-to-cart</name>
    <tag></tag>
    <elementGuidId>4d209866-3ad5-4216-bf75-d1ebd904ca4c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'add-to-cart-button' and @name = 'submit.add-to-cart' and @title = 'Add to Shopping Cart' and @type = 'submit']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;add-to-cart-button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

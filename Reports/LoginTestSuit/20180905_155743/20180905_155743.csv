@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTestSuit,,LoginFunctionality,2018-09-05 15:57:47,2018-09-05 15:57:49,2.285s,FAILED
+,,,,,,
+Test Cases/amazon_demo/finalScript,,,2018-09-05 15:57:47,2018-09-05 15:57:49,1.859s,FAILED
+openBrowser,,,2018-09-05 15:57:48,2018-09-05 15:57:49,1.454s,FAILED

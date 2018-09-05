@@ -7,7 +7,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.amazon.com'</initValue>
-      <name>url</name>
+      <name>weburl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

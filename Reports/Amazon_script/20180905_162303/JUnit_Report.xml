@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_script" time="1" tests="0" failures="1" errors="0">
+   <testsuite name="Amazon_script" tests="0" failures="1" errors="0" time="1" timestamp="2018-09-05 16:23:05" hostname="E004475 - HW1479.cignitiglobal.com" id="Test Suites/Amazon_script">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\e004475\\Desktop\\KatalonDemo\\KatalonStudioTest\\Reports\\Amazon_script\\20180905_162303"/>
+         <property name="logFiles" value="C:\\Users\\e004475\\Desktop\\KatalonDemo\\KatalonStudioTest\\Reports\\Amazon_script\\20180905_162303\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="E004475 - HW1479.cignitiglobal.com"/>
+         <property name="hostAddress" value="10.62.64.108"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+      </properties>
+      <testcase name="Test Cases/amazon_demo/finalScript" classname="Test Cases/amazon_demo/finalScript" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.&lt;init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker)"/>
+         <system-out><![CDATA[2018-09-05 16:23:06 - [TEST_CASE][FAILED] - Test Cases/amazon_demo/finalScript: Test Cases/amazon_demo/finalScript FAILED because (of) Unable to open browser with url: '' (Root cause: java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker)
+
+2018-09-05 16:23:06 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker)
+
+2018-09-05 16:23:07 - [MESSAGE][WARNING] - tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker
+
+2018-09-05 16:23:07 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker)]]></system-out>
+         <system-err><![CDATA[2018-09-05 16:23:06 - [TEST_CASE][FAILED] - Test Cases/amazon_demo/finalScript: Test Cases/amazon_demo/finalScript FAILED because (of) Unable to open browser with url: '' (Root cause: java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 16:23:05 - [TEST_SUITE][FAILED] - Amazon_script: Test Cases/amazon_demo/finalScript FAILED because (of) Unable to open browser with url: '' (Root cause: java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker)]]></system-out>
+      <system-err><![CDATA[2018-09-05 16:23:05 - [TEST_SUITE][FAILED] - Amazon_script: Test Cases/amazon_demo/finalScript FAILED because (of) Unable to open browser with url: '' (Root cause: java.lang.IllegalAccessError: tried to access method com.google.common.util.concurrent.SimpleTimeLimiter.<init>(Ljava/util/concurrent/ExecutorService;)V from class org.openqa.selenium.net.UrlChecker)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Amazon_script,,,2018-09-05 16:29:15,2018-09-05 16:29:16,1.498s,FAILED
+,,,,,,
+Test Cases/amazon_demo/finalScript,,,2018-09-05 16:29:15,2018-09-05 16:29:16,1.198s,FAILED
+openBrowser,,,2018-09-05 16:29:16,2018-09-05 16:29:16,0.762s,FAILED

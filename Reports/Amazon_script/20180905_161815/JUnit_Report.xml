@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_script" time="53" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon_script" tests="1" failures="0" errors="0" time="53" timestamp="2018-09-05 16:18:16" hostname="E004475 - HW1479.cignitiglobal.com" id="Test Suites/Amazon_script">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\e004475\\Desktop\\KatalonDemo\\KatalonStudioTest\\Reports\\Amazon_script\\20180905_161815"/>
+         <property name="logFiles" value="C:\\Users\\e004475\\Desktop\\KatalonDemo\\KatalonStudioTest\\Reports\\Amazon_script\\20180905_161815\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="E004475 - HW1479.cignitiglobal.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.3.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.62.64.108"/>
+         <property name="sessionId" value="80e3821264c04aaaf0cf8a55b05b3c44"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/amazon_demo/finalScript" classname="Test Cases/amazon_demo/finalScript" status="PASSED">
+         <system-out><![CDATA[2018-09-05 16:18:17 - [TEST_CASE][PASSED] - Test Cases/amazon_demo/finalScript: Test Cases/amazon_demo/finalScript
+
+2018-09-05 16:18:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-05 16:18:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-05 16:18:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.amazon.com' successfully
+
+2018-09-05 16:18:24 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com' successfully
+
+2018-09-05 16:18:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-05 16:18:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-05 16:18:26 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more'
+
+2018-09-05 16:18:26 - [MESSAGE][PASSED] - Current window's title is: 'Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more'
+
+2018-09-05 16:18:26 - [TEST_STEP][PASSED] - Statement - title1 = "Amazon.com:Online": null
+
+2018-09-05 16:18:26 - [TEST_STEP][PASSED] - Statement - If (title.contains("Amazon")): Title matched
+
+2018-09-05 16:18:26 - [TEST_STEP][PASSED] - comment: Title matched
+
+2018-09-05 16:18:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.com Online Shopping for/span_Hello. Sign in' is clicked on
+
+2018-09-05 16:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Online Shopping for/span_Hello. Sign in' is clicked on
+
+2018-09-05 16:18:34 - [TEST_STEP][PASSED] - setText: Text 'b6820901@nwytg.net' is set on object 'Object Repository/Page_Amazon Sign In/input_email'
+
+2018-09-05 16:18:34 - [MESSAGE][PASSED] - Text 'b6820901@nwytg.net' is set on object 'Object Repository/Page_Amazon Sign In/input_email'
+
+2018-09-05 16:18:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon Sign In/input_continue' is clicked on
+
+2018-09-05 16:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign In/input_continue' is clicked on
+
+2018-09-05 16:18:35 - [TEST_STEP][PASSED] - setText: Text 'nothing123' is set on object 'Object Repository/Page_Amazon Sign In/input_password'
+
+2018-09-05 16:18:36 - [MESSAGE][PASSED] - Text 'nothing123' is set on object 'Object Repository/Page_Amazon Sign In/input_password'
+
+2018-09-05 16:18:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon Sign In/input_signInSubmit' is clicked on
+
+2018-09-05 16:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon Sign In/input_signInSubmit' is clicked on
+
+2018-09-05 16:18:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-05 16:18:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-05 16:18:42 - [TEST_STEP][PASSED] - Statement - logoname = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/AmazonLogo)): Text of object 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/AmazonLogo' is: 'Amazon'
+
+2018-09-05 16:18:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/AmazonLogo' is: 'Amazon'
+
+2018-09-05 16:18:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/amazon_demo/TestCase1' successfully
+
+2018-09-05 16:18:42 - [TEST_CASE][PASSED] - Test Cases/amazon_demo/TestCase1: Test Cases/amazon_demo/TestCase1
+
+2018-09-05 16:18:43 - [TEST_STEP][PASSED] - setText: Text 'Motorola  Mobile' is set on object 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Page_Amazon.com Online Shopping for/input_field-keywords'
+
+2018-09-05 16:18:43 - [MESSAGE][PASSED] - Text 'Motorola  Mobile' is set on object 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Page_Amazon.com Online Shopping for/input_field-keywords'
+
+2018-09-05 16:18:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Page_Amazon.com Online Shopping for/input_nav-input' is clicked on
+
+2018-09-05 16:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Page_Amazon.com Online Shopping for/input_nav-input' is clicked on
+
+2018-09-05 16:18:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Amazon Search Box/h2_Motorola Moto C Plus XT1724' is clicked on
+
+2018-09-05 16:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Amazon Search Box/h2_Motorola Moto C Plus XT1724' is clicked on
+
+2018-09-05 16:18:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-05 16:18:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-05 16:18:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Amazon cart/input_submit.add-to-cart' is clicked on
+
+2018-09-05 16:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Amazon cart/input_submit.add-to-cart' is clicked on
+
+2018-09-05 16:18:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-05 16:18:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-05 16:18:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Amazon cart/span_Cart' is clicked on
+
+2018-09-05 16:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/Amazon cart/span_Cart' is clicked on
+
+2018-09-05 16:19:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/amazon_demo/TestCase1' successfully
+
+2018-09-05 16:19:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-05 16:19:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-05 16:19:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/span_Account  Lists' is hovered
+
+2018-09-05 16:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Online Shopping for/Amazon SignOff/span_Account  Lists' is hovered
+
+2018-09-05 16:19:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-09-05 16:19:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-09-05 16:19:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Amazon.com Online Shopping for/span_Sign Out' is clicked on
+
+2018-09-05 16:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Amazon.com Online Shopping for/span_Sign Out' is clicked on
+
+2018-09-05 16:19:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-05 16:19:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-05 16:18:16 - [TEST_SUITE][PASSED] - Amazon_script: Test Cases/amazon_demo/finalScript]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
